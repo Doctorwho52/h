@@ -53,16 +53,12 @@ jobs:
       
       
           
-      - name: Değişiklik Kontrolü
-        id: degisiklik_kontrol
-        run: |
-          git diff --quiet . || echo "degisiklik=true" >> $GITHUB_OUTPUT
-          
       - name: Değişiklikleri Commit Et
-        if: steps.degisiklik_kontrol.outputs.degisiklik == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "aynen"aynen" -m "aynen - $GITHUB_SHA"
-          git push
+  if: steps.degisiklik_kontrol.outputs.degisiklik == 'true'
+  run: |
+    git config user.name "github-actions[bot]"
+    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    git add .
+    git commit -m "aynen - $GITHUB_SHA"
+    git push
+
