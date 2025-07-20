@@ -38,7 +38,18 @@ KANAL_ADLARI = {
     "Eurosport 1": "2002",
     "Eurosport 2": "1809",
     "S Sport": "1810",
-    "S Sport 2": "3901"
+    "S Sport 2": "3901",
+    "Tarih Tv": "36",
+    "Mezzo": "37",
+    "Classical Harmony": "38",
+    "Discovery Channel": "85",
+    "ID": "86",
+    "Viasat History": "87",
+    "Love Nature": "88",
+    "Docu Screen": "89",
+    "Viasat Explore": "90",
+    "Cgtn Documentary": "91"
+    
 }
 
 def parse_m3u(file_path):
