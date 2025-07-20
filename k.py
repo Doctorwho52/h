@@ -58,7 +58,7 @@ def parse_m3u(file_path):
 
 def update_kerim_m3u():
     yeni_kanallar = parse_m3u('yeni.m3u')
-    hedef_dosya = 'Kanallar/k.m3u'
+    hedef_dosya = 'k.m3u'
 
     if not os.path.exists(hedef_dosya):
         print("k.m3u bulunamadı. Yeni oluşturuluyor...")
