@@ -146,8 +146,8 @@ https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
 
-#EXTINF:-1 tvg-name="TV 100" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_TV100" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/e2291af0-569b-4260-94f3-5505d1a40e76.png" group-title="Haber",TV 100
-https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8
+#EXTINF:-1 tvg-id="22" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/e2291af0-569b-4260-94f3-5505d1a40e76.png" group-title="Ulusal",Tv 100
+https://ottcdn.kablowebtv.net/live_turksat_sub3/tv100_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yLzIwMjUgMTozNToyNyBQTSZoYXNoX3ZhbHVlPVJNbHFTUGtTaEpyV3BqOU9KVFA4RUE9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjIwNg==
 
 #EXTINF:-1 tvg-name="Tele 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_Tele1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/50921da2-0f81-40cf-971b-1b3db26245d7.png" group-title="Haber",Tele 1
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
