@@ -45,8 +45,6 @@ https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 #EXTINF:-1 tvg-name="TV 85" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_TV85" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/812f4ba5-846e-4ae9-90fc-8f9f481156b5.png" group-title="Genel",Tv 8,5
 https://ottcdn.kablowebtv.net/live_turksat_sub3/tv8_5_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC84LzIwMjUgMTo0ODowMyBQTSZoYXNoX3ZhbHVlPWxPeE9GSE12YmhvU0NnbExmWmhBZWc9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjU=
 
-#EXTINF:-1 tvg-name="TLC" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_TLC" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/0de9fa25-120c-4b52-b460-e078531f6988.png" group-title="Genel",TLC
-https://dogus-live.daioncdn.net/tlc/tlc.m3u8
 
 
 
@@ -185,8 +183,12 @@ https://canli.dimtv.tv/hls/dim/index.m3u8
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 
-#EXTINF:-1 tvg-name="DMax" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_DMax" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png" group-title="Belgesel",DMax
-https://dogus-live.daioncdn.net/dmax/dmax.m3u8
+#EXTINF:-1 tvg-id="20" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png" group-title="Belgesel",Dmax   
+https://ottcdn.kablowebtv.net/live_turksat_sub3/dmax_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC84LzIwMjUgMTo0ODowMyBQTSZoYXNoX3ZhbHVlPWxPeE9GSE12YmhvU0NnbExmWmhBZWc9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjU=
+
+#EXTINF:-1 tvg-id="19" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/0de9fa25-120c-4b52-b460-e078531f6988.png" group-title="Belgesel",Tlc    
+https://ottcdn.kablowebtv.net/live_turksat_sub3/tlc_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC84LzIwMjUgMTo0ODowMyBQTSZoYXNoX3ZhbHVlPWxPeE9GSE12YmhvU0NnbExmWmhBZWc9PSZ2YWxpZG1pbnV0ZXM9Mjg4MCZpZD0wOTNkNzIwYS01MDJjLTQxZWQtYTgwZi0yYjgxNjk4NGZiOTUsODk3NDFmZWMtMWQzMy00YzAwLWFmY2QtM2ZkYWZlMGI2YTJkLDE1MmJkNTM5LTYyMjAtNDQyNy1hOTE1LWJmNGJkMDY4ZDdlOCxhNjk5YjgzZi04MjZiLTRkOTktOTM2MS1jOGEzMTMyMThkNDYsMCw6OmZmZmY6MTAuMC4wLjU=
+
 
 #EXTINF:-1 tvg-name="National Geographic" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_Nationalgeo" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/38a2e51a-9f7f-4915-aa88-f78190f59411.png" group-title="Belgesel",National Geographic
 https://saran-live.ercdn.net/natgeohd/index.m3u8
@@ -197,8 +199,7 @@ https://saran-live.ercdn.net/natgeowild/index.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Bein Gurme" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_BEİNGURME" tvg-logo="https://images.seeklogo.com/logo-png/36/2/bein-gurme-logo-png_seeklogo-367814.png" group-title="Belgesel",Bein Gurme
-https://live-cdn-65984.varplaycdn.cfd/gurme/index.m3u8
+
 
 
 
