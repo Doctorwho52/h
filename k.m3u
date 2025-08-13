@@ -154,7 +154,7 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/szctv_stream/index.m3u8?wmsAuthS
 
 
 
-#EXTINF:-1 tvg-name="Halk TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_HalkTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/516aa59e-70a2-4be3-9077-02862a052fde.png" group-title="Haber",Halk TV
+#EXTINF:-1 tvg-name="Halk TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_HalkTV" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/c9acd31e-5cc0-4b5d-bdef-7c9f8b577c42.png" group-title="Haber",Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 
 #EXTINF:-1 tvg-id="46" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/5a733c68-7739-4466-851d-573cfd125990.png" group-title="Haber",Ülke Tv
