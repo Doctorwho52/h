@@ -175,9 +175,9 @@ https://canli.dimtv.tv/hls/dim/index.m3u8
 https://ottcdn.kablowebtv.net/live_turksat_sub3/trtbelgesel_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMi8yMDI1IDEyOjM0OjQ4IFBNJmhhc2hfdmFsdWU9MkRZSEJMY1d1T0pSNWpVVVFrTUhUQT09JnZhbGlkbWludXRlcz0yODgwJmlkPTA5M2Q3MjBhLTUwMmMtNDFlZC1hODBmLTJiODE2OTg0ZmI5NSw4OTc0MWZlYy0xZDMzLTRjMDAtYWZjZC0zZmRhZmUwYjZhMmQsMTUyYmQ1MzktNjIyMC00NDI3LWE5MTUtYmY0YmQwNjhkN2U4LGE2OTliODNmLTgyNmItNGQ5OS05MzYxLWM4YTMxMzIxOGQ0NiwwLDo6ZmZmZjoxMC4wLjAuMg==
 
 #EXTINF:-1 tvg-id="86" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://raw.githubusercontent.com/Doctorwho52/h/refs/heads/main/bbcearth.png" tvg-name="BBC Earth" group-title="Belgesel",BBC Earth 
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
+#EXTVLCOPT:http-user-agent=Dart/3.7 (dart:io)
 #EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/bbc.m3u8
+https://tv.prectv53.lol/live/bbc.m3u8?token=B7oCRdC3KIDHX89VB09FRA&tms=1755965127
 
 
 #EXTINF:-1 tvg-id="20" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png" group-title="Belgesel",Dmax   
