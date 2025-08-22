@@ -259,49 +259,6 @@ https://ottcdn.kablowebtv.net/live_turksat_sub3/sinemakomedi_stream/index.m3u8?w
 #EXTINF:-1 tvg-name="Sinema Aksiyon"  tvg-language="Turkish" tvg-country="TR" tvg-id="1109" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/bd434731-0e47-4a37-997e-49f71340fcc6.png" group-title="Sinema",Sinema Aksiyon
 https://ottcdn.kablowebtv.net/live_turksat_sub3/sinemaaksiyon_stream/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8yMi8yMDI1IDEyOjM0OjQ5IFBNJmhhc2hfdmFsdWU9Z3EzaFgvekN5akVBMDhOeG4wcHJLQT09JnZhbGlkbWludXRlcz0yODgwJmlkPTA5M2Q3MjBhLTUwMmMtNDFlZC1hODBmLTJiODE2OTg0ZmI5NSw4OTc0MWZlYy0xZDMzLTRjMDAtYWZjZC0zZmRhZmUwYjZhMmQsMTUyYmQ1MzktNjIyMC00NDI3LWE5MTUtYmY0YmQwNjhkN2U4LGE2OTliODNmLTgyNmItNGQ5OS05MzYxLWM4YTMxMzIxOGQ0NiwwLDo6ZmZmZjoxMC4wLjAuMg==
 
-#EXTINF:-1 tvg-id="70" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/bein-box-office-1-tr.png" tvg-name="Bein Box Office 1" group-title="Sinema",Bein Box Office 1
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/box1.m3u8
-#EXTINF:-1 tvg-id="69" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/bein-box-office-2-tr.png" tvg-name="Bein Box Office 2" group-title="Sinema",Bein Box Office 2
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/box2.m3u8
-#EXTINF:-1 tvg-id="68" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/bein-box-office-3-tr.png" tvg-name="Bein Box Office 3" group-title="Sinema",Bein Box Office 3
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/box3.m3u8
-
-#EXTINF:-1 tvg-id="76" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/bein-movies-action-hd-tr.png" tvg-name="Bein Movies Action" group-title="Sinema",Bein Movies Action
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/bsaction1.m3u8
-
-#EXTINF:-1 tvg-id="74" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/bein-movies-family-hd-tr.png" tvg-name="Bein Movies Family" group-title="Sinema",Bein Movies Family
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/bsfamily.m3u8
-
-#EXTINF:-1 tvg-id="71" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/bein-movies-premiere-hd-tr.png" tvg-name="Bein Movies Premier" group-title="Sinema",Bein Movies Premier
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/bspremier1.m3u8
-
-#EXTINF:-1 tvg-id="72" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/bein-movies-stars-hd-tr.png" tvg-name="Bein Movies Stars" group-title="Sinema",Bein Movies Stars
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/bsstars.m3u8
-
-#EXTINF:-1 tvg-id="75" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/bein-movies-turk-hd-tr.png" tvg-name="Bein Movies Türk" group-title="Sinema",Bein Movies Türk
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/bsturk.m3u8
-
-
-#EXTINF:-1 tvg-id="67" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://raw.githubusercontent.com/GitLatte/m3ueditor/refs/heads/site/images/kanal-gorselleri/turkiye/movie-smart-turk-tr.png" tvg-name="Moviesmart Turk" group-title="Sinema",Moviesmart Turk
-#EXTVLCOPT:http-user-agent=okhttp/4.12.0
-#EXTVLCOPT:http-referrer=https://twitter.com
-https://tv.arectv34.sbs/live/mvturk.m3u8
 
 
 
