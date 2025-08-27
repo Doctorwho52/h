@@ -285,7 +285,7 @@ https://live.sportstv.com.tr/hls/low/sportstv.m3u8
 #EXTINF:-1 tvg-name="HT Spor " tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Ht_Spor" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/213d42ff-51ba-4591-ae43-a35779496d93.png" group-title="Spor",Ht spor
 https://ciner-live.daioncdn.net/ht-spor/ht-spor.m3u8
 
-#EXTINF:-1 tvg-name="beIN Sports Haber" tvg-id="2114" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bc458b63-fe9e-40c2-b8a3-d56dc7189e0a.png" group-title="Spor",beIN Sports Haber
+#EXTINF:-1 tvg-name="beIN Sports Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="2114" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/bc458b63-fe9e-40c2-b8a3-d56dc7189e0a.png" group-title="Spor",beIN Sports Haber
 https://www.youtube.com/watch?v=LqQrpAJYHRg
 
 #EXTINF:-1 tvg-name="TJK TV" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TJKTV" tvg-logo="http://assets.tvcdn.net/bcbd8593-677e-438a-9077-abe1cce5ffc2.png" group-title="Spor",TJK TV
@@ -297,7 +297,7 @@ https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Nba Tv A" tvg-id="3903" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1af109dc-4dc7-4185-981b-ccc6f8d45e83.png" group-title="Spor",Nba Tv
+#EXTINF:-1 tvg-name="Nba Tv A" tvg-language="English" tvg-country="USA" tvg-id="3903" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1af109dc-4dc7-4185-981b-ccc6f8d45e83.png" group-title="Spor",Nba Tv
 https://subarec.kerimmkirac.workers.dev/39.m3u8
 
 
@@ -337,7 +337,7 @@ https://two.zirvestream12.cfd/yayineu1.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Eurosport 2 A" tvg-id="1809" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Eurosport 2
+#EXTINF:-1 tvg-name="Eurosport 2 A" tvg-language="Turkish" tvg-country="TR" tvg-id="1809" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Eurosport 2
 https://subarec.kerimmkirac.workers.dev/31.m3u8
 
 #EXTINF:-1 tvg-name="Euro Sport 2 B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport2A" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Euro Sport 2 B
