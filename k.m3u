@@ -24,7 +24,7 @@ https://ciner-live.daioncdn.net/showmax/showmax.m3u8
 https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 
 #EXTINF:-1 tvg-name="TV 85" tvg-language="Turkish" tvg-country="TR" tvg-id="Genel_TV85" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/812f4ba5-846e-4ae9-90fc-8f9f481156b5.png" group-title="Genel",Tv 8,5
-https://subarec.kerimmkirac.workers.dev/49.m3u8
+https://three.4928d54d950ee70q33.lat/49.m3u8
 
 
 
@@ -100,7 +100,7 @@ https://dogus-live.daioncdn.net/ntv/ntv.m3u8
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
 
 #EXTINF:-1 tvg-name="A Haber" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_AHaber" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1c207549-826b-4c8e-8dd3-bbd488258430.png" group-title="Haber",A Haber
-https://subarec.kerimmkirac.workers.dev/56.m3u8
+https://three.4928d54d950ee70q33.lat/56.m3u8
 
 
 #EXTINF:-1 tvg-name="Cnbc-e" tvg-id="2003"  tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/16752eb5-4001-4b31-860c-ab947ed2c86d.png" group-title="Haber",Cnbc-e
@@ -114,7 +114,7 @@ https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 
 
 #EXTINF:-1 tvg-id="22" tvg-language="Turkish" tvg-country="TR" tvg-name="Tv 100" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/e2291af0-569b-4260-94f3-5505d1a40e76.png" group-title="Haber",Tv 100
-https://subarec.kerimmkirac.workers.dev/110.m3u8
+https://three.4928d54d950ee70q33.lat/110.m3u8
 
 
 #EXTINF:-1 tvg-name="Tele 1" tvg-language="Turkish" tvg-country="TR" tvg-id="Haber_Tele1" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/50921da2-0f81-40cf-971b-1b3db26245d7.png" group-title="Haber",Tele 1
@@ -146,7 +146,7 @@ https://hls-1kaa.onrender.com/video.m3u8?video=hHSmBJk6w0c
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 
 #EXTINF:-1 tvg-id="86" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://raw.githubusercontent.com/Doctorwho52/h/refs/heads/main/bbcearth.png" tvg-name="BBC Earth" group-title="Belgesel",BBC Earth 
-https://subarec.kerimmkirac.workers.dev/67.m3u8
+https://three.4928d54d950ee70q33.lat/67.m3u8
 
 #EXTINF:-1 tvg-id="20" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png" group-title="Belgesel",Dmax   
 https://dogus-live.daioncdn.net/dmax/dmax.m3u8
@@ -173,18 +173,18 @@ https://saran-live.ercdn.net/natgeowild/index.m3u8
 
 
 #EXTINF:-1 tvg-id="36" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/1da9e4ec-4e08-4bc9-bf29-5060d63bca07.png" group-title="Belgesel",Tarih Tv
-https://subarec.kerimmkirac.workers.dev/68.m3u8
+https://three.4928d54d950ee70q33.lat/68.m3u8
 
 
 
 
 
 #EXTINF:-1 tvg-id="87" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/c9bbb2de-204b-48f6-a62f-94fa4252a6b0.png" group-title="Belgesel",Viasat History
-https://subarec.kerimmkirac.workers.dev/106.m3u8
+https://three.4928d54d950ee70q33.lat/106.m3u8
 
 
 #EXTINF:-1 tvg-id="88" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/f297ad42-3a86-42b7-90fd-ba2339a7a6d5.png" group-title="Belgesel",Love Nature
-https://subarec.kerimmkirac.workers.dev/105.m3u8
+https://three.4928d54d950ee70q33.lat/105.m3u8
 
 
 
@@ -298,7 +298,7 @@ https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
 
 
 #EXTINF:-1 tvg-name="Nba Tv A" tvg-language="English" tvg-country="USA" tvg-id="3903" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/1af109dc-4dc7-4185-981b-ccc6f8d45e83.png" group-title="Spor",Nba Tv
-https://subarec.kerimmkirac.workers.dev/39.m3u8
+https://three.4928d54d950ee70q33.lat/39.m3u8
 
 
 #EXTINF:-1 tvg-name="NBA TV B" tvg-language="English" tvg-country="USA" tvg-id="Spor_NBATVB" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/8/89/Nbatv.png" group-title="Spor",NBA TV B
@@ -320,7 +320,7 @@ https://three.4928d54d950ee70q33.lat/yayinex1.m3u8
 
 
 #EXTINF:-1 tvg-name="Euro Sport 1 A" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSportA" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="Spor",Eurosport 1
-https://subarec.kerimmkirac.workers.dev/30.m3u8
+https://three.4928d54d950ee70q33.lat/30.m3u8
 
 
 #EXTINF:-1 tvg-name="Euro Sport 1 B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport1A" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" group-title="Spor",Euro Sport 1 B
@@ -338,7 +338,7 @@ https://two.zirvestream12.cfd/yayineu1.m3u8
 
 
 #EXTINF:-1 tvg-name="Eurosport 2 A" tvg-language="Turkish" tvg-country="TR" tvg-id="1809" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Eurosport 2
-https://subarec.kerimmkirac.workers.dev/31.m3u8
+https://three.4928d54d950ee70q33.lat/31.m3u8
 
 #EXTINF:-1 tvg-name="Euro Sport 2 B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_EuroSport2A" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/a4cbdd15-1509-408f-a108-65b8f88f2066.png" group-title="Spor",Euro Sport 2 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -423,7 +423,7 @@ https://two.zirvestream12.cfd/yayinsms2.m3u8
 
 
 #EXTINF:-1 tvg-name="S Sport 1 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="1810" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport
-https://subarec.kerimmkirac.workers.dev/26.m3u8?proxy=evet
+https://three.4928d54d950ee70q33.lat/26.m3u8?proxy=evet
 
 #EXTINF:-1 tvg-name="S Sport 1 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORTB" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923239.png" group-title="Spor",S Sport 1 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -441,7 +441,7 @@ https://two.zirvestream12.cfd/yayinss.m3u8
 
 
 #EXTINF:-1 tvg-name="S Sport 2 | A" tvg-language="Turkish" tvg-country="TR" tvg-id="3901" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2
-https://subarec.kerimmkirac.workers.dev/27.m3u8?proxy=evet
+https://three.4928d54d950ee70q33.lat/27.m3u8?proxy=evet
 
 #EXTINF:-1 tvg-name="S Sport 2 | B" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_SSPORT2B" tvg-logo="https://itv224226.tmp.tivibu.com.tr:6430/images/poster/20230302923321.png" group-title="Spor",S Sport 2 B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
