@@ -94,24 +94,21 @@ class TRGoals:
         eski_yayin_url = eski_yayin_url[0]
 
         
-        if eski_yayin_url.startswith("https://subarec.kerimmkirac.workers.dev"):
-            konsol.log("[blue][~] subarec.kerimmkirac.workers.dev bulundu, değiştirmeden devam ediliyor...")
-            yayin_url = eski_yayin_url
+        konsol.log(f"[yellow][~] Eski Yayın URL : {eski_yayin_url}")
+
+        response = self.httpx.get(kontrol_url, follow_redirects=True)
+
+        if not (yayin_ara := re.search(r'(?:var|let|const)\s+baseurl\s*=\s*"(https?://[^"]+)"', response.text)):
+            secici = Selector(response.text)
+            baslik = secici.xpath("//title/text()").get()
+            if baslik == "404 Not Found":
+                yeni_domain = eldeki_domain
+                yayin_url   = eski_yayin_url  
+                konsol.log("[yellow][!] 404 hatası, eski değerler korunuyor")
+            else:
+                konsol.print(response.text)
+                raise ValueError("Base URL bulunamadı!")
         else:
-            konsol.log(f"[yellow][~] Eski Yayın URL : {eski_yayin_url}")
-
-            response = self.httpx.get(kontrol_url, follow_redirects=True)
-
-            if not (yayin_ara := re.search(r'(?:var|let|const)\s+baseurl\s*=\s*"(https?://[^"]+)"', response.text)):
-                secici = Selector(response.text)
-                baslik = secici.xpath("//title/text()").get()
-                if baslik == "404 Not Found":
-                    yeni_domain = eldeki_domain
-                    yayin_ara   = [None, eski_yayin_url]
-                else:
-                    konsol.print(response.text)
-                    raise ValueError("Base URL bulunamadı!")
-
             yayin_url = yayin_ara[1]
             konsol.log(f"[green][+] Yeni Yayın URL : {yayin_url}")
 
