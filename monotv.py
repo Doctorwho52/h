@@ -20,7 +20,7 @@ class MonoTV:
         try:
             response = self.scraper.get(json_endpoint)
             text = response.text.strip()
-
+            print(text)
             if not text or text.startswith("<"):
                 raise ValueError("HTML döndü, Cloudflare veya erişim hatası.")
 
