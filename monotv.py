@@ -1,23 +1,30 @@
-import re
-from httpx import Client
+import re, json
+import cloudscraper
 from Kekik.cli import konsol as log  
 
 class MonoTV:
     def __init__(self, m3u_dosyasi):
         self.m3u_dosyasi = m3u_dosyasi
-        self.httpx = Client(
-            timeout=10,
-            headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36"
+        # 🔹 Cloudflare'i otomatik aşan oturum:
+        self.scraper = cloudscraper.create_scraper(
+            browser={
+                'browser': 'chrome',
+                'platform': 'windows',
+                'mobile': False
             }
         )
 
     def yayin_urlini_al(self):
-        json_endpoint = "https://vavoo.vercel.app/api/stream.js?url=https://sportsobama.com/domain.php&referer=https://royalvipcanlimac.com&useragent=okhttp/4.12.0"
+        json_endpoint = "https://sportsobama.com/domain.php"
         log.log(f"[cyan][~] domain.php çağrılıyor: {json_endpoint}")
         try:
-            response = self.httpx.get(json_endpoint)
-            json_data = response.json()
+            response = self.scraper.get(json_endpoint)
+            text = response.text.strip()
+
+            if not text or text.startswith("<"):
+                raise ValueError("HTML döndü, Cloudflare veya erişim hatası.")
+
+            json_data = json.loads(text)
             yayin_url = json_data["baseurl"].replace("\\/", "/").rstrip("/")
             log.log(f"[green][+] Yayın URL bulundu: {yayin_url}")
             return yayin_url
@@ -36,7 +43,6 @@ class MonoTV:
         )
 
         eslesmeler = list(pattern.finditer(m3u_icerik))
-
         if not eslesmeler:
             raise ValueError("Referer'i monotv olan yayınlar bulunamadı!")
 
@@ -47,10 +53,8 @@ class MonoTV:
 
         for eslesme in eslesmeler:
             eski_link = eslesme[3]
-            
-            path_kismi = '/' + '/'.join(eski_link.split('/')[3:])  
+            path_kismi = '/' + '/'.join(eski_link.split('/')[3:])
             yeni_link = yeni_yayin_url + path_kismi
-            
             yeni_link = re.sub(r'(?<!:)//+', '/', yeni_link)
             if eski_link != yeni_link:
                 log.log(f"[blue]• Güncellendi: {eski_link} → {yeni_link}")
