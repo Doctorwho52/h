@@ -2,6 +2,7 @@ from Kekik.cli import konsol
 from httpx     import Client
 from parsel    import Selector
 import re
+from urllib.parse import urlparse
 
 class TRGoals:
     def __init__(self, m3u_dosyasi):
@@ -17,6 +18,65 @@ class TRGoals:
             return eslesme[1]
         else:
             raise ValueError("M3U dosyasında 'trgoals' içeren referer domain bulunamadı!")
+
+    # 🔹 META ve JS redirect destekli yardımcı
+    def meta_refresh_bul(self, html_content):
+        meta_refresh_pattern = r'<meta\s+http-equiv=["\']refresh["\'][^>]*content=["\'][^"\']*;URL=([^"\']+)["\']'
+        match = re.search(meta_refresh_pattern, html_content, re.IGNORECASE)
+        if match:
+            return match.group(1)
+        js_redirect_pattern = r'location\.replace\(["\']([^"\']+)["\']'
+        match = re.search(js_redirect_pattern, html_content)
+        if match:
+            return match.group(1)
+        return None
+
+    # 🔹 Asıl fark burada: derin redirect çözümü
+    def redirect_gec(self, redirect_url: str, max_depth=5):
+        konsol.log(f"[cyan][~] redirect_gec çağrıldı: {redirect_url}")
+        current_url = redirect_url
+        visited = set()
+
+        for i in range(max_depth):
+            if current_url in visited:
+                break
+            visited.add(current_url)
+
+            try:
+                response = self.httpx.get(current_url, follow_redirects=True)
+            except Exception as e:
+                raise ValueError(f"Redirect sırasında hata oluştu: {e}")
+
+            # Tüm redirect geçmişi
+            tum_url_listesi = [str(r.url) for r in response.history] + [str(response.url)]
+            for url in tum_url_listesi:
+                if "trgoals" in url and not url.endswith("trgoalsgiris.xyz"):
+                    return url.strip("/")
+
+            # HTML içinde meta veya JS redirect var mı?
+            next_url = self.meta_refresh_bul(response.text)
+            if next_url:
+                # relative ise absolute yap
+                if next_url.startswith("/"):
+                    parsed = urlparse(current_url)
+                    next_url = f"{parsed.scheme}://{parsed.netloc}{next_url}"
+                elif not next_url.startswith("http"):
+                    parsed = urlparse(current_url)
+                    next_url = f"{parsed.scheme}://{parsed.netloc}/{next_url.lstrip('/')}"
+                konsol.log(f"[yellow][~] Meta/JS redirect bulundu: {next_url}")
+                current_url = next_url
+                continue
+
+            # Eğer t.co içindeyse bir tur daha dön
+            if "t.co/" in str(response.url):
+                current_url = str(response.url)
+                konsol.log(f"[yellow][~] t.co yönlendirmesi tekrar denenecek: {current_url}")
+                continue
+
+            konsol.log(f"[yellow][~] Daha fazla redirect bulunamadı. Son URL: {response.url}")
+            break
+
+        raise ValueError("Redirect zincirinde 'trgoals' içeren bir link bulunamadı!")
 
     def trgoals_domaini_al(self):
         redirect_url = "https://bit.ly/m/taraftarium24w"
@@ -37,21 +97,6 @@ class TRGoals:
                 raise ValueError(f"Yedek linkten de domain alınamadı: {e}")
 
         return redirect_url
-
-    def redirect_gec(self, redirect_url: str):
-        konsol.log(f"[cyan][~] redirect_gec çağrıldı: {redirect_url}")
-        try:
-            response = self.httpx.get(redirect_url, follow_redirects=True)
-        except Exception as e:
-            raise ValueError(f"Redirect sırasında hata oluştu: {e}")
-
-        tum_url_listesi = [str(r.url) for r in response.history] + [str(response.url)]
-
-        for url in tum_url_listesi[::-1]:  
-            if "trgoals" in url:
-                return url.strip("/")
-
-        raise ValueError("Redirect zincirinde 'trgoals' içeren bir link bulunamadı!")
 
     def yeni_domaini_al(self, eldeki_domain: str) -> str:
         def check_domain(domain: str) -> str:
@@ -92,8 +137,6 @@ class TRGoals:
             raise ValueError("M3U dosyasında eski yayın URL'si bulunamadı!")
 
         eski_yayin_url = eski_yayin_url[0]
-
-        
         konsol.log(f"[yellow][~] Eski Yayın URL : {eski_yayin_url}")
 
         response = self.httpx.get(kontrol_url, follow_redirects=True)
