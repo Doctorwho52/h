@@ -155,10 +155,11 @@ https://tv-trtbelgesel-dash.medya.trt.com.tr/master.mpd
 
 
 #EXTINF:-1 tvg-id="20" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/6a63a310-1f7d-4d5c-b377-1e497f5b3610.png" group-title="Belgesel",Dmax   
-https://dogus-live.daioncdn.net/dmax/dmax.m3u8
+https://dogus.daioncdn.net/dmax/dmax.m3u8?ce=3&app=5a02c599-d17e-4982-9b04-090934d51af7&token=aVVGK2JIdnFXaTMzQzBsQXRVMzBIV1BqKzVKZWdCd1ZNRTJWWVNpWTB0cz0=
+
 
 #EXTINF:-1 tvg-id="19" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/0de9fa25-120c-4b52-b460-e078531f6988.png" group-title="Belgesel",Tlc    
-https://dogus-live.daioncdn.net/tlc/tlc.m3u8
+https://dogus.daioncdn.net/tlc/tlc.m3u8?ce=3&app=1aca0aa1-06e3-41ff-a8e5-38d7df475469&token=U1NlRWd1RTNKZGF0Z2tSQnFsQUhzOFdXZ1MrRzU1OHMzeFlQRkk0LzZ1Yz0=
 
 #EXTINF:-1 tvg-name="National Geographic" tvg-language="Turkish" tvg-country="TR" tvg-id="Belgesel_Nationalgeo" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/500/500/channels/logos/38a2e51a-9f7f-4915-aa88-f78190f59411.png" group-title="Belgesel",National Geographic
 https://saran-live.ercdn.net/natgeohd/index.m3u8
